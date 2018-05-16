@@ -6,17 +6,34 @@
 {% endblock title %}
 
 {% block stylesheets %}
-  <link rel="stylesheet" href="{% static 'css/new_profile1.css' %}">
 {% endblock stylesheets %}
 
 {% block content %}
-Fuck you
 
-<div class="container-fluid">
+<link rel="stylesheet" href="{% static 'css/new_profile1.css' %}">
+
+<h3 class="ml-3 mt-2">P.io</h3>
+
+<div class="container-fluid mt-3">
   <div class="row justify-content-center">
-    <div class="col-10 profile-head">
-
+    <div class="col-8 profile-head">
+      <div class="row">
+        <div class="col-auto profile-photo mt-3 ml-4"></div>
+        <h4 class="my-auto mx-auto pl-4">Edit your profile info by clicking on the pencil.</h4>
+        <div class="col-auto ml-auto">
+          <a class="edit-button" href="">✎</a>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
+<div class="container-fluid mt-5">
+  <div class="row justify-content-center">
+    <a class="add-project pb-5" href="">+</a>
+  </div>
+  <div class="row justify-content-center mt-4">
+    <h4>Click on the box to add a new project.</h4>
   </div>
 </div>
   
