@@ -1,0 +1,35 @@
+#main_container{
+    /*
+    background-color: white;
+    */
+    border-radius: .2rem;
+}
+
+#abstract_container{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#pill_holder{
+    background-color: white;
+    border-radius: .2rem;
+    padding: 4px 8px 4px 8px;
+}
+
+.editor_body{
+    background-color: white;
+}
+
+.title{
+    color: white;
+}
+
+.ql-toolbar{
+    background-color: white;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+}
+
+p{
+    color: black
+}
