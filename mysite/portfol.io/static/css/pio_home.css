@@ -1,0 +1,13 @@
+body {
+  color: white;
+}
+
+.modal {
+  color: black;
+}
+
+.modal-body a {
+  color:red;
+  font-size: .7em;
+  text-decoration: underline;
+}
