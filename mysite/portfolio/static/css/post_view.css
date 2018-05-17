@@ -1,0 +1,13 @@
+#main_container{
+    margin-top: 32px;
+    padding: 16px 16px 16px 16px;
+}
+
+#project_info{
+    margin-top: 64px;
+}
+
+.custom_card{
+    background-color: white;
+    border-radius: .2rem;
+}

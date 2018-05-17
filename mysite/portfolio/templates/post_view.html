@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Portfol.io
+{% endblock title %}
+
+{% block stylesheets %}
+
+{% endblock stylesheets %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/post_view.css' %}">
+
+<h3 class="ml-3 mt-2">P.io</h3>
+
+<div class="container">
+    <div class="row" id="project_info">
+        <div class="col-sm-12 col-md-7 custom_card">
+            <h1>Third Keyboard</h1>
+            <h6>
+                This project post is about my third keyboard I made. I was able
+                to complete it in record time.
+            </h6>
+        </div>
+        <div class="col-sm-12 col-md-4 offset-1 custom_card">
+            <h3>Tags / Skills</h3>
+            <ul>
+                <li>Soldering</li>
+                <li>Programming</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container custom_card" id="main_container">
+    <h1>About this project</h1>
+    <p><br></p>
+    <img src="../static/resources/IMG_0623.JPG" width="500">
+    <p><br></p>
+    <img src="../static/resources/IMG_0642.JPG" width="500">
+    <p><br></p>
+    <img src="../static/resources/IMG_0644.JPG" width="500">
+    <p><br></p>
+    <img src="../static/resources/IMG_0645.JPG" width="500">
+    <p><br></p>
+    <p>I'm super happy to bring an update to my latest keyboard.</p>
+
+    <p>To make a mechanical keyboard you need to:</p>
+    <ol>
+        <li>Get a metal or acrylic plate cut to sit your keys</li>
+        <li class="ql-indent-1">We use steel we get from Transfer Flow</li>
+        <li>Once mounted you need to glue in your switches.</li>
+        <li>Then solder all the diodes to the switches</li>
+        <li>Then solder all the wires to all the rows</li>
+        <li>Then you need to go from all the ends of each row and column to the teensy micro-controller.</li>
+        <li>After that all you need to do is program it with the teensy loader (https://www.pjrc.com/teensy/loader.html)</li>
+    </ol>
+    <p><br></p>
+    <p>
+        This is a rough outline of what needs to be done to make a keyboard.
+        Overall, thanks to the hard work of Dane Eckert and everyone at the
+        Chico State Mechanical Keyboard club I was able to get this keyboard
+        done in a single day.
+    </p>
+</div>
+
+
+{% endblock content %}
