@@ -43,10 +43,10 @@ Portfol.io
 
 <nav class="navbar fixed-bottom navbar-light bg-light">
     <div class="col-sm-2">
-        <button type="button" class="btn btn-primary">Return to Profile</button>
+        <a href="{% url 'new_profile1' %}"><button type="button" class="btn btn-primary">Return to Profile</button></a>
     </div>
     <div class="col-sm-2">
-        <button type="button" class="btn btn-primary" style="float: right">Save</button>
+        <a href="{% url 'post_view' %}"><button type="button" class="btn btn-primary" style="float: right">Save</button></a>
     </div>
 </nav>
 
