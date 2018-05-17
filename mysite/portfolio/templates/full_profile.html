@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Portfol.io
+{% endblock title %}
+
+{% block stylesheets %}
+{% endblock stylesheets %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/full_profile.css' %}">
+
+<h3 class="ml-3 mt-2">P.io</h3>
+
+<div class="container-fluid mt-3">
+    <div class="row justify-content-center">
+        <div class="col-8 profile-head">
+            <div class="row">
+                <div class="col-auto profile-photo mt-3 ml-4"></div>
+                <h4 class="my-auto mx-auto pl-4">Edit your profile info by clicking on the pencil.</h4>
+                <div class="col-auto ml-auto">
+                    <a class="edit-button" href="{% url 'edit_profile' %}">✎</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-md-4 col-lg-3" style="padding: 0">
+        <div class="add-project" style="margin: 16px">
+            <h4>Third keyboard</h4>
+            <div class="row">
+                <div class="col-sm-6"><p>Cool project</p></div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="{% url 'post_view' %}"><button type="button" class="btn btn-primary">View Project</button></a>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

@@ -6,8 +6,12 @@ def index(request):
 def new_profile1(request):
     return render(request, "new_profile1.html")
 
+def full_profile(request):
+    return render(request, "full_profile.html")
+
 def edit_profile(request):
     return render(request, "edit_profile.html")
+
 def post_view(request):
     return render(request, "post_view.html")
   

@@ -1,0 +1,45 @@
+body {
+    color: black;
+}
+
+h4 {
+    color: grey;
+}
+
+h3 {
+    color: white;
+}
+
+.profile-head {
+    background-color: white;
+    border-color:black;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 1px 12px #202220;
+    height: 175px;
+}
+
+.profile-photo {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 140px;
+    width: 110px;
+}
+
+.edit-button {
+    font-size: 1.7em;
+}
+
+.add-project {
+    background-color: rgb(200, 241, 253);
+    border-color:black;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 1px 12px #202220;
+    height: 175px;
+    line-height: 87%;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+}
