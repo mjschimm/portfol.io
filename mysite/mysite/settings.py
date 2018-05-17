@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 ]
 
 DEV_APPS = [
-    'livereload'
+    #'livereload'
 ]
 
 if DEBUG:
@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 DEV_MIDDLEWARE = [
     #livereload middleware
-    'livereload.middleware.LiveReloadScript',
+   # 'livereload.middleware.LiveReloadScript',
 ]
 
 if DEBUG:

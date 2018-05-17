@@ -1,0 +1,36 @@
+body {
+  color: black;
+}
+
+h4 {
+  color: grey;
+}
+
+h3, h6 {
+  color: white;
+}
+
+.card {
+  height: 200px;
+  outline-width: 5px;
+}
+
+.photo-box {
+  font-size: 9em;
+  width: 170px;
+}
+
+.btn-no-style {
+  background: none;
+  border: none;
+}
+
+.list-group-item {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.skills {
+  width: 170px;
+  overflow: scroll;
+}
