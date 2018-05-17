@@ -9,3 +9,9 @@ $(function() {
     }
   });
 });
+
+$(function() {
+  $(".current-job").click(function() {
+    $("#endDate").toggle();
+  });
+});
