@@ -13,4 +13,3 @@ def post_view(request):
   
 def post_edit(request):
     return render(request, "post_edit.html")
-
